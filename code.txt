@@ -1,0 +1,27 @@
+#include <iostream>
+#define _USE_MATH_DEFINES
+#include<math.h>
+int main()
+{
+    double a, z, x, e, y,t,A,c,m,b;
+        printf("Input x:");
+        scanf_s("%lf", &x);
+        printf("Input e:");
+        scanf_s("%lf", &e);
+        printf("Input z:");
+        scanf_s("%lf", &z);
+        printf("Input y:");
+        scanf_s("%lf", &y);
+        printf("Input t:");
+        scanf_s("%lf", &t);
+        printf("Input A:");
+        scanf_s("%lf", &A);
+        printf("Input c:");
+        scanf_s("%lf", &c);
+        printf("Input m:");
+        scanf_s("%lf", &m);
+        a = (3 + pow(e, x)) / pow(((1 + pow(x, 2)) * abs(y - z)), 3) + sqrt(x / 7 * y);
+        b = pow(pow(m, 3), 0.2) * cos(y * t * sin(A - 4.7)) + c;
+            printf("A:%e", a);
+            printf("\nB:%e", b);
+}
